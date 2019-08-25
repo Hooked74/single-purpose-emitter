@@ -17,5 +17,4 @@ deploy:
   tag: next
   on:
     branch: master
-    tags: true
     repo: Hooked74/single-purpose-emitter
