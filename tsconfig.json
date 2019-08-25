@@ -33,5 +33,5 @@
     "noEmit": true,
     "strict": false
   },
-  "include": ["typings.d.ts", "src"]
+  "include": ["src"]
 }
