@@ -26,7 +26,6 @@ const getBabelOptions = ({ useESModules }) => ({
   exclude: "node_modules/**",
   runtimeHelpers: true,
   presets: [["react-app", { typescript: true, useESModules }]],
-  plugins: ["emotion"],
   extensions
 });
 

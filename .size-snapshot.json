@@ -1,0 +1,31 @@
+{
+  "dist/single-purpose-emitter.js": {
+    "bundled": 2656,
+    "minified": 1015,
+    "gzipped": 560
+  },
+  "dist/single-purpose-emitter.min.js": {
+    "bundled": 1017,
+    "minified": 1003,
+    "gzipped": 554
+  },
+  "dist/single-purpose-emitter.cjs.js": {
+    "bundled": 2303,
+    "minified": 1054,
+    "gzipped": 538
+  },
+  "dist/single-purpose-emitter.esm.js": {
+    "bundled": 2216,
+    "minified": 983,
+    "gzipped": 519,
+    "treeshaked": {
+      "rollup": {
+        "code": 0,
+        "import_statements": 0
+      },
+      "webpack": {
+        "code": 951
+      }
+    }
+  }
+}
