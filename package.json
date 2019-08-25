@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Single purpose emitter",
   "scripts": {
-    "test": "cross-env CI=true react-scripts test --bail --findRelatedTests",
+    "test": "cross-env CI=true react-scripts test --bail",
     "test:watch": "react-scripts test",
     "test:coverage": "react-scripts test --coverage",
     "clean": "rimraf dist",
