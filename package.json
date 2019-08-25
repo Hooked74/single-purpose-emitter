@@ -103,5 +103,8 @@
       "yarn prettier",
       "git add"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
