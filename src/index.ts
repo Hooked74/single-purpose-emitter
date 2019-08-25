@@ -5,9 +5,13 @@ export default class SinglePurposeEmitter {
     this.handlers.push(callback);
   }
 
-  public detach(callback: Handler): void {
-    const index: int = this.handlers.findIndex((handler: Handler) => handler === callback);
-    if (~index) this.handlers.splice(index, 1);
+  public detach(callback?: Handler): void {
+    if (callback) {
+      const index: int = this.handlers.findIndex((handler: Handler) => handler === callback);
+      if (~index) this.handlers.splice(index, 1);
+    } else {
+      this.handlers = [];
+    }
   }
 
   public emit<T>(e?: T): void {
