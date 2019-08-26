@@ -1,6 +1,6 @@
 {
   "name": "single-purpose-emitter",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Single purpose emitter",
   "scripts": {
     "test": "cross-env CI=true react-scripts test --bail --colors --coverage",
