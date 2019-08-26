@@ -13,8 +13,7 @@
     "prettier": "prettier --write",
     "prettier:types": "prettier --write \"dist/*.d.ts\"",
     "lint": "tslint --fix -p tsconfig.json -c tslint.json",
-    "lint:types": "tslint --fix -p tsconfig.types.json -c tslint.compile.json dist/*.d.ts",
-    "prepublishOnly": "npm run build"
+    "lint:types": "tslint --fix -p tsconfig.types.json -c tslint.compile.json dist/*.d.ts"
   },
   "keywords": [
     "emitter",
