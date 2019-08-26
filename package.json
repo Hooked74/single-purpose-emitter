@@ -1,6 +1,6 @@
 {
   "name": "single-purpose-emitter",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Single purpose emitter",
   "scripts": {
     "test": "cross-env CI=true react-scripts test --bail --colors",
@@ -23,8 +23,7 @@
   "author": "Igor Novikov <novikovio74@gmail.com>",
   "license": "MIT",
   "files": [
-    "/dist",
-    "/src"
+    "/dist"
   ],
   "engines": {
     "node": ">=10",
