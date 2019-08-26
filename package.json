@@ -18,7 +18,8 @@
   "keywords": [
     "emitter",
     "attach",
-    "detach"
+    "detach",
+    "dispatch"
   ],
   "author": "Igor Novikov <novikovio74@gmail.com>",
   "license": "MIT",
