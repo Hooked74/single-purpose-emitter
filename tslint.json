@@ -7,14 +7,7 @@
     "tslint-config-prettier"
   ],
   "linterOptions": {
-    "exclude": [
-      "./config/**",
-      "./node_modules/**",
-      "./src/vendors/**",
-      "./coverage/**",
-      "./public/**",
-      "./build/**"
-    ]
+    "exclude": ["./config/**", "./node_modules/**", "./coverage/**", "./public/**"]
   },
   "rules": {
     "curly": false,
