@@ -1,5 +1,10 @@
 <h1 align="center"><strong>Single Purpose Emitter</strong></h1>
 
+[![Build Status](https://travis-ci.org/Hooked74/single-purpose-emitter.svg?branch=master)](https://travis-ci.org/Hooked74/single-purpose-emitter)
+![npm](https://img.shields.io/npm/v/single-purpose-emitter)
+![NPM](https://img.shields.io/npm/l/single-purpose-emitter)
+
+
 ## Install
 
 ```

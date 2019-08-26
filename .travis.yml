@@ -9,6 +9,8 @@ install:
   - npm ci
 script:
   - npm test
+  - npm i -g codecov
+  - codecov --token="$CODECOV_TOKEN"
 before_deploy:
   - npm run build
 deploy:

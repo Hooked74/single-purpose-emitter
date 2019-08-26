@@ -1,9 +1,9 @@
 {
   "name": "single-purpose-emitter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Single purpose emitter",
   "scripts": {
-    "test": "cross-env CI=true react-scripts test --bail --colors",
+    "test": "cross-env CI=true react-scripts test --bail --colors --coverage",
     "test:watch": "react-scripts test",
     "test:coverage": "react-scripts test --coverage",
     "clean": "rimraf dist",
