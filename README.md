@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Hooked74/single-purpose-emitter.svg?branch=master)](https://travis-ci.org/Hooked74/single-purpose-emitter)
 ![npm](https://img.shields.io/npm/v/single-purpose-emitter)
+![Codecov](https://img.shields.io/codecov/c/github/hooked74/single-purpose-emitter?token=203907d891d1498e9910c58a0b720633)
 ![NPM](https://img.shields.io/npm/l/single-purpose-emitter)
 
 
