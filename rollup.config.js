@@ -5,9 +5,6 @@ import tslint from "rollup-plugin-tslint";
 import commonjs from "rollup-plugin-commonjs";
 import external from "rollup-plugin-peer-deps-external";
 import resolve from "rollup-plugin-node-resolve";
-import url from "rollup-plugin-url";
-import svgr from "@svgr/rollup";
-import json from "rollup-plugin-json";
 import { uglify } from "rollup-plugin-uglify";
 import strip from "rollup-plugin-strip";
 import { sizeSnapshot } from "rollup-plugin-size-snapshot";
@@ -47,9 +44,6 @@ export default [
     plugins: [
       tslint({ throwOnError: true }),
       external(),
-      json(),
-      url({ exclude: ["**/*.svg"] }),
-      svgr(),
       babel(getBabelOptions({ useESModules: true })),
       resolve({ extensions }),
       commonjs(commonjsArgs),
@@ -68,9 +62,6 @@ export default [
     plugins: [
       tslint({ throwOnError: true }),
       external(),
-      json(),
-      url({ exclude: ["**/*.svg"] }),
-      svgr(),
       babel(getBabelOptions({ useESModules: true })),
       resolve({ extensions }),
       commonjs(commonjsArgs),
@@ -89,11 +80,8 @@ export default [
     external: excludeAllExternals,
     plugins: [
       tslint({ throwOnError: true }),
-      json(),
       resolve({ extensions }),
       commonjs(commonjsArgs),
-      url({ exclude: ["**/*.svg"] }),
-      svgr(),
       babel(getBabelOptions({ useESModules: false })),
       sizeSnapshot()
     ]
@@ -108,10 +96,7 @@ export default [
     external: excludeAllExternals,
     plugins: [
       tslint({ throwOnError: true }),
-      json(),
       resolve({ extensions }),
-      url({ exclude: ["**/*.svg"] }),
-      svgr(),
       babel(getBabelOptions({ useESModules: true })),
       sizeSnapshot()
     ]
