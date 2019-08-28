@@ -1,30 +1,30 @@
 {
   "dist/single-purpose-emitter.js": {
-    "bundled": 2656,
-    "minified": 1015,
-    "gzipped": 560
+    "bundled": 42310,
+    "minified": 13126,
+    "gzipped": 5460
   },
   "dist/single-purpose-emitter.min.js": {
-    "bundled": 1017,
-    "minified": 1003,
-    "gzipped": 554
+    "bundled": 13041,
+    "minified": 12876,
+    "gzipped": 5391
   },
   "dist/single-purpose-emitter.cjs.js": {
-    "bundled": 2303,
-    "minified": 1054,
-    "gzipped": 538
+    "bundled": 1773,
+    "minified": 1056,
+    "gzipped": 479
   },
   "dist/single-purpose-emitter.esm.js": {
-    "bundled": 2216,
-    "minified": 983,
-    "gzipped": 519,
+    "bundled": 1560,
+    "minified": 899,
+    "gzipped": 425,
     "treeshaked": {
       "rollup": {
-        "code": 0,
-        "import_statements": 0
+        "code": 214,
+        "import_statements": 214
       },
       "webpack": {
-        "code": 951
+        "code": 1331
       }
     }
   }

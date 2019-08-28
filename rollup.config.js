@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+import { dirname } from "path";
 import babel from "rollup-plugin-babel";
 import tslint from "rollup-plugin-tslint";
 import commonjs from "rollup-plugin-commonjs";
@@ -19,10 +20,18 @@ const extensions = [".js", ".jsx", ".ts", ".tsx"];
 const excludeAllExternals = id => !id.startsWith(".") && !id.startsWith("/");
 
 const getBabelOptions = ({ useESModules }) => ({
-  babelrc: false,
   exclude: "node_modules/**",
   runtimeHelpers: true,
-  presets: [["react-app", { typescript: true, useESModules }]],
+  plugins: [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        corejs: 3,
+        useESModules,
+        absoluteRuntime: dirname(require.resolve("@babel/runtime/package.json"))
+      }
+    ]
+  ],
   extensions
 });
 
@@ -97,6 +106,7 @@ export default [
     plugins: [
       tslint({ throwOnError: true }),
       resolve({ extensions }),
+      commonjs(commonjsArgs),
       babel(getBabelOptions({ useESModules: true })),
       sizeSnapshot()
     ]
