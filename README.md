@@ -9,7 +9,7 @@
 ## Install
 
 ```
-npm install single-purpose-emitter
+npm install @hooked74/single-purpose-emitter
 ```
 
 ## Usage

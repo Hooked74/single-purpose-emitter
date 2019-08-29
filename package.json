@@ -1,5 +1,5 @@
 {
-  "name": "single-purpose-emitter",
+  "name": "@hooked74/single-purpose-emitter",
   "version": "1.0.8",
   "description": "Single purpose emitter",
   "scripts": {
