@@ -4,7 +4,6 @@ import { dirname } from "path";
 import babel from "rollup-plugin-babel";
 import tslint from "rollup-plugin-tslint";
 import commonjs from "rollup-plugin-commonjs";
-import external from "rollup-plugin-peer-deps-external";
 import resolve from "rollup-plugin-node-resolve";
 import { uglify } from "rollup-plugin-uglify";
 import strip from "rollup-plugin-strip";
@@ -52,7 +51,6 @@ export default [
     },
     plugins: [
       tslint({ throwOnError: true }),
-      external(),
       babel(getBabelOptions({ useESModules: true })),
       resolve({ extensions }),
       commonjs(commonjsArgs),
@@ -70,7 +68,6 @@ export default [
     },
     plugins: [
       tslint({ throwOnError: true }),
-      external(),
       babel(getBabelOptions({ useESModules: true })),
       resolve({ extensions }),
       commonjs(commonjsArgs),

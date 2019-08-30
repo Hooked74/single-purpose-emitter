@@ -1,6 +1,6 @@
 {
   "name": "@hooked74/single-purpose-emitter",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Single purpose emitter",
   "scripts": {
     "test": "cross-env CI=true react-scripts test --bail --colors --coverage",
@@ -69,7 +69,6 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-size-snapshot": "^0.10.0",
     "rollup-plugin-strip": "^1.2.2",
     "rollup-plugin-tslint": "^0.2.2",
