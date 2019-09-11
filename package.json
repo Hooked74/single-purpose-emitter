@@ -1,12 +1,11 @@
 {
   "name": "@hooked74/single-purpose-emitter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Single purpose emitter",
   "scripts": {
     "test": "cross-env CI=true react-scripts test --bail --colors --coverage",
     "test:staged": "cross-env CI=true react-scripts test --bail --colors --passWithNoTests --findRelatedTests",
     "test:watch": "react-scripts test",
-    "test:coverage": "react-scripts test --coverage",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run build:lib && npm run build:types && npm run build:size",
     "build:lib": "cross-env NODE_ENV=production rollup -c",
