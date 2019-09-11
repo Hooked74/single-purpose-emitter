@@ -5,9 +5,9 @@
     "gzipped": 5460
   },
   "dist/single-purpose-emitter.min.js": {
-    "bundled": 13041,
-    "minified": 12876,
-    "gzipped": 5391
+    "bundled": 42310,
+    "minified": 13126,
+    "gzipped": 5460
   },
   "dist/single-purpose-emitter.cjs.js": {
     "bundled": 1773,
@@ -27,5 +27,6 @@
         "code": 1331
       }
     }
-  }
+  },
+  "module": "479 B"
 }

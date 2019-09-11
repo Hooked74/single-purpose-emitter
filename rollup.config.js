@@ -72,8 +72,8 @@ export default [
       resolve({ extensions }),
       commonjs(commonjsArgs),
       strip({ debugger: true }),
-      uglify(),
-      sizeSnapshot()
+      sizeSnapshot(),
+      uglify()
     ]
   },
 
