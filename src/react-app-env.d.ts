@@ -1,4 +1,8 @@
 /// <reference types="react-scripts" />
 
-type int = number;
-type Handler<T = any> = (...args: any[]) => T;
+declare namespace SinglePurposeEmitterCommon {
+  type int = number;
+  type Handler<T = any> = (...args: any[]) => T;
+}
+
+import H74_SPEC = SinglePurposeEmitterCommon;
