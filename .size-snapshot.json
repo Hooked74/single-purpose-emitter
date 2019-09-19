@@ -1,21 +1,21 @@
 {
   "dist/single-purpose-emitter.js": {
-    "bundled": 42310,
+    "bundled": 42398,
     "minified": 13126,
     "gzipped": 5460
   },
   "dist/single-purpose-emitter.min.js": {
-    "bundled": 42310,
-    "minified": 13126,
-    "gzipped": 5460
+    "bundled": 13129,
+    "minified": 12876,
+    "gzipped": 5391
   },
   "dist/single-purpose-emitter.cjs.js": {
-    "bundled": 1773,
+    "bundled": 1861,
     "minified": 1056,
     "gzipped": 479
   },
   "dist/single-purpose-emitter.esm.js": {
-    "bundled": 1560,
+    "bundled": 1648,
     "minified": 899,
     "gzipped": 425,
     "treeshaked": {
