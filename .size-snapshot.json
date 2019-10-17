@@ -1,12 +1,12 @@
 {
   "dist/single-purpose-emitter.js": {
-    "bundled": 42398,
-    "minified": 13126,
-    "gzipped": 5460
+    "bundled": 42752,
+    "minified": 13139,
+    "gzipped": 5456
   },
   "dist/single-purpose-emitter.min.js": {
-    "bundled": 13129,
-    "minified": 12876,
+    "bundled": 13145,
+    "minified": 12892,
     "gzipped": 5391
   },
   "dist/single-purpose-emitter.cjs.js": {
